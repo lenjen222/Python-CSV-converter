@@ -1,7 +1,7 @@
 Sales Report Generator
 
 Abstract:
-This Python program reads data from three CSV files (TeamMap.csv, ProductMaster.csv, Sales.csv), processes it, and produces two output CSV files (TeamReport.csv, ProductReport.csv).
+This Python program reads data from three CSV files (In this case TeamMap.csv, ProductMaster.csv, Sales.csv), processes it, and produces two output CSV files (In this case TeamReport.csv, ProductReport.csv).
 
 Requirements
 Python 3 or higher
@@ -34,3 +34,4 @@ Sales.csv: Contains information about each sale. Each line contains the sale ID,
 Output Files:
 TeamReport.csv: Contains two values per line, the team name, and the total gross revenue of the team’s sales.
 ProductReport.csv: Each line contains the product name, gross revenue from sales of the product, total number of units sold, and the total cost of all discounts provided on the product.
+While the code focuses on these named files, the code will soon be tweaked to allow any number of file arguements and file names. The data processing will be next in the near future.
